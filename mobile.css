@@ -42,7 +42,6 @@
     height: 640px;
   }
   .titulo{
-    z-index: 0;
     height: 0px;
   
   }
@@ -125,5 +124,11 @@
     color: #CCCCCC;
     justify-content: center;
     align-items: center;
+  }
+  .linkfooter{
+    font-family: 'Montserrat', sans-serif;
+    font-style: none;
+    color: white;
+    text-decoration: none;
   }
   }
