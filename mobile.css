@@ -1,0 +1,129 @@
+@media (max-width:600px){
+    header{
+      height: 27px;
+      display: flex;
+      background-color: white;
+      z-index: 3;
+      left: 0px;
+      right: 0px;
+    }
+    main{
+      width: 100%;
+    }
+    header h1{
+      font-family: 'Montserrat', sans-serif;
+      width: 200px;
+      font-weight: 700;
+      font-size: 18px;
+      display: flex;
+      margin-left: 0px;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+    header button{
+      display: block;
+      width: 68px;
+      height: 27px;
+      background-color: black;
+      border-style: none;
+    }
+    header nav {
+      display: none;
+      margin-left: 0px;
+    }
+  
+  .bannerimagem{
+    display: none;
+  }
+  .bannermobile{
+    display: block;
+    width: 100%;
+    height: 640px;
+  }
+  .titulo{
+    z-index: 0;
+    height: 0px;
+  
+  }
+  .titulo h2{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    margin-left: 0px;
+    position: relative;
+    padding: 35px;
+    top: 300px;
+    color: white;
+  }
+  .titulo p{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin-left: 0px;
+    text-transform: uppercase;
+    position: relative;
+    padding: 35px;
+    top: 280px;
+    color: white;
+    transition: ease-in-out 0.6s;
+    cursor: pointer;
+  }
+  .titulo p:hover{
+    display: none;
+  }
+  .catálogo {
+    padding: 38px;
+  }
+  .catálogo img{
+    width: 300px;
+  }
+  footer{
+    height: 144px;
+    background-color: white;
+    display: block;
+  }
+  .redes-sociais{
+    background-color: #7FDBD4;
+    display: flex;
+    width: 302px;
+    justify-content: center;
+    margin-left: 39px;
+    
+  }
+  .redes-sociais img{
+  height:49px;
+  }
+  footer p{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    font-size: 10px;
+    font-weight: 700;
+    margin-left: 39px;
+    position: relative;
+    top: 30px;
+  }
+  .disclaimer{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    width: 80px;
+    font-size: 10px;
+    font-weight: 300;
+    margin-left: 39px;
+  }
+  .botao{
+    display: flex;
+    position: relative;
+    bottom: 16px;
+    left: 268px;
+    width: 68px;
+    height: 25px;
+    border-style: none;
+    background-color: #333333;
+    color: #CCCCCC;
+    justify-content: center;
+    align-items: center;
+  }
+  }
